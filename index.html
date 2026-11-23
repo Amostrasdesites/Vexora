@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VEXORA | Criação de sites e manutenção</title>
+<meta name="description" content="Criação de sites profissionais, vitrines com WhatsApp e experiências de compra. Conheça o portfólio e compare os planos de criação e manutenção.">
+<meta name="referrer" content="no-referrer"><meta name="theme-color" content="#07111f">
+<link rel="icon" href="assets/vexora-logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="base.css"><link rel="stylesheet" href="experience.css"><link rel="stylesheet" href="vexora.css"><script defer src="vexora.js"></script><script defer src="site-config.js"></script><script defer src="main.js"></script><script defer src="portfolio.js"></script><link rel="stylesheet" href="legal.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header class="top"><div class="wrap nav">
+<a href="index.html" class="brand" aria-label="VEXORA, início"><span class="vexora-logo-frame"><img class="vexora-logo-image" src="assets/vexora-logo-horizontal.png" alt="VEXORA" width="2172" height="724"></span></a>
+<nav aria-label="Principal"><a href="#portfolio">Portfólio</a><a href="#planos">Planos</a><a href="#manutencao">Manutenção</a></nav>
+<a class="button button-dark nav-cta" href="#orcamento">Pedir orçamento </a>
+</div></header>
+<main id="conteudo">
+<section class="hero wrap">
+<div class="hero-copy"><p class="eyebrow"><i></i> DESIGN & DESENVOLVIMENTO WEB</p>
+<h1>Seu próximo passo.<em>Uma nova presença.</em></h1>
+<p>Sites com identidade, movimento e caminhos claros para vender. Explore nossos projetos e descubra como sua marca pode ocupar o digital.</p>
+<div class="actions"><a class="button button-primary" href="#portfolio">Explorar portfólio </a><a class="text-link" href="#planos">Ver planos </a></div>
+</div>
+<div class="hero-art"><span class="orbit orbit-one" aria-hidden="true"></span><span class="orbit orbit-two" aria-hidden="true"></span>
+<a class="art-browser hero-project" href="#portfolio" data-hero-project="norte" aria-label="Explorar o projeto Linha Norte"><div class="window-bar"><span></span><span></span><span></span><b>LINHA NORTE</b></div><div class="art-photo"><span>LINHA<br>NORTE<span class="art-period">.</span></span><small>ARQUITETURA & INTERIORES</small></div><div class="art-browser-base"><b>Espaços para viver.</b><span>→</span></div></a>
+<a class="art-phone hero-project" href="#portfolio" data-hero-project="brasa" aria-label="Explorar o projeto Brasa e Pão"><div class="phone-notch"></div><div class="phone-body"><small>BRASA & PÃO</small><b>Na brasa.<br>De verdade.</b><div class="phone-photo"></div><span>Ver o cardápio →</span></div></a>
+</div>
+</section>
+<section class="gallery" id="portfolio" aria-labelledby="portfolio-title">
+<div class="wrap">
+<div class="gallery-heading">
+<div><p class="eyebrow">PORTFÓLIO DO ESTÚDIO</p><h2 id="portfolio-title">Entre nos projetos.</h2></div>
+<p>Explore um ambiente, monte um pedido ou finalize uma compra de teste. Cada projeto foi criado como demonstração do nosso trabalho.</p>
+</div>
+<div class="project-pickers" role="group" aria-label="Escolher projeto">
+<button type="button" data-showcase="norte" aria-pressed="true"><span>Arquitetura</span><strong>Linha Norte</strong></button>
+<button type="button" data-showcase="brasa" aria-pressed="false"><span>Pedidos pelo WhatsApp</span><strong>Brasa &amp; Pão</strong></button>
+<button type="button" data-showcase="orla" aria-pressed="false"><span>Loja com checkout</span><strong>Orla</strong></button>
+</div>
+<article class="case" data-project="norte" aria-labelledby="case-title">
+<div class="case-cover">
+<img class="case-photo" id="case-photo" src="assets/norte.webp" alt="Interior de concreto e madeira iluminado pelo pôr do sol" width="499" height="1024">
+<div class="case-cover-copy"><p id="case-type">SITE INSTITUCIONAL</p><h3 id="case-title">Linha Norte</h3><p id="case-line">Espaços para viver.</p></div>
+<div id="commerce-sample" class="commerce-sample" hidden><strong id="sample-title"></strong><span id="sample-text"></span></div>
+<div class="scene-controls" id="scene-controls" role="group" aria-label="Explorar cenas do projeto"></div>
+</div>
+<div class="case-detail">
+<div class="case-editorial"><p class="eyebrow" id="scene-label">O AMBIENTE</p><h4 id="scene-title">Casa de luz</h4><p class="case-description" id="scene-description" aria-live="polite">Concreto, madeira e luz natural contam a história do projeto. O layout dá espaço para cada imagem e mantém a navegação à mão.</p></div>
+<div class="case-actions">
+<button class="button case-primary" type="button" data-open-demo>Visitar o site </button>
+<a class="text-link" id="showcase-link" href="demos/linha-norte.html">Abrir em tela inteira </a>
+<a class="text-link" id="showcase-quote" href="#orcamento">Quero um site assim </a>
+</div>
+</div>
+</article>
+</div>
+</section>
+<dialog id="demo-preview" class="demo-preview" aria-labelledby="demo-preview-title">
+<div class="demo-toolbar"><div><p class="eyebrow">DEMONSTRAÇÃO</p><h2 id="demo-preview-title">Linha Norte</h2></div>
+<div class="device-options" role="group" aria-label="Tamanho da prévia"><button type="button" data-device="desktop" aria-pressed="true">Desktop</button><button type="button" data-device="phone" aria-pressed="false">Celular</button></div>
+<form method="dialog"><button class="icon-button" aria-label="Fechar prévia">×</button></form></div>
+<div class="demo-view" data-viewport="desktop"><iframe referrerpolicy="no-referrer" id="demo-frame" title="Site de demonstração"></iframe></div>
+</dialog>
+<section class="pricing section" id="planos"><div class="wrap">
+<div class="section-head"><div><p class="eyebrow">PLANOS DE CRIAÇÃO</p><h2>Escolha o seu plano.</h2></div><p>O desenvolvimento tem valor único. A mensalidade cobre hospedagem e manutenção, com período mínimo de 6 meses. <a href="termos.html">Consulte as condições completas.</a></p></div>
+<div id="price-cards" class="price-grid"></div><p class="commercial-note">Total anual = criação + 12 mensalidades. Domínio e custos externos são discriminados na proposta. Integrações incluídas conectam serviços compatíveis. Loja virtual completa tem orçamento próprio.</p>
+<details class="comparison"><summary>Comparar todos os recursos <span aria-hidden="true">+</span></summary><div id="compare-table" class="table-scroll" tabindex="0" aria-label="Tabela de comparação dos planos"></div></details>
+</div></section>
+<section class="section wrap" id="manutencao">
+<div class="section-head"><div><p class="eyebrow">PÓS-ENTREGA</p><h2>Manutenção mensal.</h2></div><p>Todos os planos incluem hospedagem, suporte por WhatsApp e alterações simples. Veja os limites e serviços de cada plano.</p></div>
+<div class="maintenance-grid" id="maintenance-cards"></div>
+<details class="comparison"><summary>Condições comerciais <span aria-hidden="true">+</span></summary><ul class="terms"><li>Criação do site com 50% na entrada e 50% na entrega.</li><li>Mensalidade com contrato mínimo de 6 meses.</li><li>O registro do domínio é por conta do cliente. A configuração faz parte de todos os planos.</li><li>Logo, fotos profissionais, textos longos e loja virtual completa são cobrados à parte.</li><li>Alterações acima do limite do plano são orçadas separadamente.</li></ul></details>
+</section>
+<section class="quote" id="orcamento"><div class="wrap quote-inner">
+<div><p class="eyebrow">ORÇAMENTO</p><h2>Vamos tirar seu site do papel?</h2><p>Escolha um plano e conte o que você precisa. Envie o resumo pelo WhatsApp para conversar sobre seu projeto.</p><a class="button button-light" href="https://wa.me/5511963353529" target="_blank" rel="noopener noreferrer" style="margin-top:20px">Conversar pelo WhatsApp</a><p>+55 11 96335-3529</p><p class="privacy-form-note">Identificação cadastral do prestador em complementação. <a href="atendimento.html#sec-4">Informações do responsável</a>.</p></div>
+<form id="brief-form"><p class="privacy-form-note">Solicitar um orçamento inicia uma conversa. A proposta e o aceite serão tratados no atendimento.</p><label for="brief-name">Seu nome ou negócio</label><input id="brief-name" name="nome" required maxlength="120" autocomplete="organization">
+<label for="brief-plan">Plano</label><select id="brief-plan" name="plano"><option>Ainda estou decidindo</option><option>Básico</option><option>Profissional</option><option>Premium</option></select>
+<label for="brief-type">Objetivo do site</label><select id="brief-type" name="objetivo"><option>Apresentar meu negócio</option><option>Receber pedidos pelo WhatsApp</option><option>Vender com pagamento online</option><option>Outro</option></select>
+<label for="brief-notes">Conte um pouco sobre o projeto <small>(opcional)</small></label><textarea autocomplete="off" id="brief-notes" name="detalhes" rows="3" maxlength="1200"></textarea>
+<p class="privacy-form-note">O resumo é montado no seu navegador. Ao abrir o envio, você compartilha o texto com o WhatsApp. Evite informar senhas ou dados sensíveis. <a href="privacidade.html">Leia a política de privacidade.</a></p><button class="button button-light" type="submit">Gerar resumo do orçamento </button></form>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap"><a href="index.html" class="brand"><span class="vexora-logo-frame"><img class="vexora-logo-image" src="assets/vexora-logo-horizontal.png" alt="VEXORA" width="2172" height="724"></span></a><p>VEXORA · Design, tecnologia e presença digital.</p><nav class="legal-links" aria-label="Informações legais"><a href="privacidade.html">Privacidade e cookies</a><a href="termos.html">Condições de contratação</a><a href="atendimento.html">Atendimento e cancelamento</a></nav><a class="text-link" href="#conteudo">Voltar ao topo</a></div></footer>
+<dialog id="brief-dialog" aria-labelledby="brief-title"><div class="dialog-head"><h2 id="brief-title">Resumo do orçamento</h2><form method="dialog"><button class="icon-button" aria-label="Fechar">×</button></form></div><textarea id="brief-output" aria-label="Resumo gerado" rows="8" readonly></textarea><div class="actions"><button type="button" id="copy-brief" class="button button-primary">Copiar resumo</button><a class="button button-dark" id="whatsapp-brief" target="_blank" rel="noopener noreferrer" hidden>Enviar pelo WhatsApp</a><button type="button" id="share-brief" class="button button-dark" hidden>Compartilhar</button></div><p class="feedback" id="brief-feedback" role="status"></p></dialog>
+</body></html>
