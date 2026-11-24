@@ -4,7 +4,7 @@ Código completo do site em HTML, CSS e JavaScript. Inclui a logo transparente, 
 
 ## Colocar no repositório
 
-Extraia o ZIP e envie todo o conteúdo da pasta para a raiz do seu repositório, mantendo os nomes e as pastas. O index.html deve estar na raiz junto dos arquivos CSS e JavaScript. Envie também assets/ e demos/.
+Extraia o ZIP e envie todo o conteúdo da pasta para a raiz do seu repositório, mantendo os nomes e as pastas. Mantenha o index.html na raiz. Envie também as pastas css/, js/, assets/ e demos/.
 
 ## Editar no VS Code
 
@@ -14,22 +14,23 @@ Abra a pasta extraída no VS Code. Para testar, execute `python -m http.server 8
 
 | Arquivo | O que editar |
 | --- | --- |
-| index.html | Textos, menu, contato e estrutura da página |
-| base.css | Estrutura base do layout |
-| experience.css | Galeria e apresentação dos projetos |
-| vexora.css | Cores, fontes e identidade da VEXORA |
-| legal.css | Aparência das páginas legais |
-| main.js | Preços, planos, comparação e resumo do orçamento |
-| portfolio.js | Projetos, imagens, cenas e abertura das demos |
-| vexora.js | Animações ao rolar |
-| site-config.js | WhatsApp comercial |
-| privacidade.html | Política de privacidade e cookies |
-| termos.html | Condições de contratação |
-| atendimento.html | Atendimento, cancelamento e identificação |
+| index.html | Textos, navegação e estrutura da página inicial |
+| css/base.css | Layout e componentes compartilhados |
+| css/tema.css | Cores, fontes, logo e identidade visual |
+| css/portfolio.css | Galeria e prévia das demonstrações |
+| css/legal.css | Estilo das páginas legais |
+| js/config.js | WhatsApp comercial |
+| js/dados/planos.js | Preços, benefícios e comparação de planos |
+| js/planos.js | Exibição dos planos e da comparação |
+| js/orcamento.js | Formulário, resumo e envio do orçamento |
+| js/dados/projetos.js | Textos, imagens e endereços dos projetos |
+| js/portfolio.js | Navegação do portfólio e abertura das demos |
+| js/animacoes.js | Animações ao rolar a página |
+| privacidade.html, termos.html e atendimento.html | Conteúdo das páginas legais |
 | assets/ | Imagens e logos |
-| demos/ | Sites de exemplo com carrinho e checkout simulado |
+| demos/ | Páginas das demos, com seus próprios diretórios css/ e js/ |
 
-Arquivos de versões anteriores das demos estão incluídos para manter os endereços e suas dependências.
+As demos de versões anteriores continuam disponíveis nos mesmos endereços. Seus arquivos de estilo e scripts estão identificados como legado.
 
 ## Publicação e operação
 
