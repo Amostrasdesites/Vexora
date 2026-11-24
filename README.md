@@ -38,3 +38,7 @@ O repositório armazena os arquivos. A publicação depende da hospedagem escolh
 A política de privacidade considera a publicação no GitHub Pages. Se mudar de provedor, atualize a seção de hospedagem e a política vinculada. Complete também a identificação legal do prestador, endereço e e-mail, que continuam sinalizados como pendentes. A rotina comercial e os contratos exigem revisão antes das vendas reais.
 
 O contato está configurado como 5511963353529. O formulário monta o resumo no navegador e permite enviá-lo ao WhatsApp. As demonstrações de checkout usam pagamentos simulados.
+
+## Domínios dos clientes
+
+A VEXORA cuida da pesquisa, do registro e da configuração de domínios .br pelo Registro.br. A escolha deve ser aprovada pelo cliente e considerar disponibilidade, compatibilidade com a marca, facilidade de uso e orçamento. O domínio fica no CPF ou CNPJ do cliente, com acesso sob seu controle. Registro e renovação são pagos pelo cliente, conforme a proposta. Registro de domínio e registro de marca no INPI são procedimentos diferentes.
