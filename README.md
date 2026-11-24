@@ -35,7 +35,7 @@ Arquivos de versões anteriores das demos estão incluídos para manter os ender
 
 O repositório armazena os arquivos. A publicação depende da hospedagem escolhida. O site é estático e dispensa instalação de pacotes ou etapa de build.
 
-A política de privacidade considera a publicação no GitHub Pages. Se mudar de provedor, atualize a seção de hospedagem e a política vinculada. Complete também a identificação legal do prestador, endereço e e-mail, que continuam sinalizados como pendentes. A rotina comercial e os contratos exigem revisão antes das vendas reais.
+A política de privacidade descreve, de forma geral, o tratamento de registros técnicos pela infraestrutura de hospedagem. Ao escolher ou alterar a hospedagem, confirme os dados tratados pelo provedor e mantenha esse aviso atualizado. O registro do domínio e a contratação da hospedagem são procedimentos independentes. Complete também a identificação legal do prestador, endereço e e-mail, que continuam sinalizados como pendentes. A rotina comercial e os contratos exigem revisão antes das vendas reais.
 
 O contato está configurado como 5511963353529. O formulário monta o resumo no navegador e permite enviá-lo ao WhatsApp. As demonstrações de checkout usam pagamentos simulados.
 
