@@ -1,44 +1,69 @@
 # VEXORA
 
-Código completo do site em HTML, CSS e JavaScript. Inclui a logo transparente, o WhatsApp comercial, o portfólio, as demonstrações e as páginas legais atualizadas em 24 de novembro de 2026.
+Código completo e organizado do site em HTML, CSS e JavaScript. O site funciona sem etapa de build e sem dependências de execução. Os scripts usam módulos nativos do navegador.
 
-## Colocar no repositório
+## Começar
 
-Extraia o ZIP e envie todo o conteúdo da pasta para a raiz do seu repositório, mantendo os nomes e as pastas. O index.html deve estar na raiz junto dos arquivos CSS e JavaScript. Envie também assets/ e demos/.
+1. Extraia o ZIP em uma pasta vazia.
+2. Abra a pasta inteira no VS Code.
+3. Execute `python -m http.server 8000` no terminal. No Windows, também pode usar `py -m http.server 8000`.
+4. Acesse `http://localhost:8000` no navegador.
 
-## Editar no VS Code
+Use um servidor local para testar os módulos JavaScript. Abrir o HTML com duplo clique pode impedir seu carregamento.
 
-Abra a pasta extraída no VS Code. Para testar, execute `python -m http.server 8000` no terminal, ou `py -m http.server 8000` no Windows, e abra http://localhost:8000.
+## Onde editar
 
-## Arquivos principais
+| O que deseja mudar                          | Arquivo ou pasta                    |
+| ------------------------------------------- | ----------------------------------- |
+| Textos e estrutura da página principal      | `index.html`                        |
+| WhatsApp e número exibido                   | `assets/js/config/site.js`          |
+| Planos, preços, mensalidades e recursos     | `assets/js/data/plans.js`           |
+| Projetos, cenas e textos do portfólio       | `assets/js/data/projects.js`        |
+| Produtos das demos atuais                   | `assets/js/data/products.js`        |
+| Catálogos das demos antigas                 | `assets/js/data/legacy-products.js` |
+| Cores e fontes da VEXORA                    | `assets/css/tokens.css`             |
+| Estrutura e componentes da página principal | `assets/css/base.css`               |
+| Aparência do portfólio e da prévia          | `assets/css/showcase.css`           |
+| Acabamentos da identidade visual            | `assets/css/theme.css`              |
+| Aparência das páginas legais                | `assets/css/legal.css`              |
+| Aparência das demonstrações atuais          | `assets/css/demos.css`              |
+| Logo, ícones e fotografias                  | `assets/images/`                    |
+| Política de privacidade                     | `privacidade.html`                  |
+| Condições de contratação                    | `termos.html`                       |
+| Atendimento e identificação                 | `atendimento.html`                  |
 
-| Arquivo | O que editar |
-| --- | --- |
-| index.html | Textos, menu, contato e estrutura da página |
-| base.css | Estrutura base do layout |
-| experience.css | Galeria e apresentação dos projetos |
-| vexora.css | Cores, fontes e identidade da VEXORA |
-| legal.css | Aparência das páginas legais |
-| main.js | Preços, planos, comparação e resumo do orçamento |
-| portfolio.js | Projetos, imagens, cenas e abertura das demos |
-| vexora.js | Animações ao rolar |
-| site-config.js | WhatsApp comercial |
-| privacidade.html | Política de privacidade e cookies |
-| termos.html | Condições de contratação |
-| atendimento.html | Atendimento, cancelamento e identificação |
-| assets/ | Imagens e logos |
-| demos/ | Sites de exemplo com carrinho e checkout simulado |
+Os preços da página principal e da tabela das condições são montados a partir do mesmo arquivo de dados. Os totais anuais são calculados automaticamente.
 
-Arquivos de versões anteriores das demos estão incluídos para manter os endereços e suas dependências.
+## Organização
+
+- `assets/css/`: folhas de estilo com regras em linhas e blocos legíveis.
+- `assets/js/config/`: configuração comercial.
+- `assets/js/data/`: conteúdo editável, separado dos comportamentos.
+- `assets/js/components/`: planos, orçamento, contato, portfólio e animações.
+- `assets/js/demos/`: comportamentos das demonstrações atuais.
+- `assets/js/shared/`: formatação compartilhada.
+- `assets/css/legacy/` e `assets/js/legacy/`: estilos e comportamentos antigos preservados e identificados.
+- `demos/`: páginas dos sites de exemplo, nos endereços anteriores.
+- `docs/`: guias de manutenção e de substituição da estrutura anterior.
+
+Veja `docs/MANUTENCAO.md` para orientações de edição e `docs/ATUALIZACAO.md` para publicar esta reorganização.
+
+## Formatação consistente
+
+Os arquivos têm indentação de dois espaços e configuração para o editor. A formatação é uma ferramenta opcional de desenvolvimento.
+
+Para usar a mesma formatação, execute `npm install` e depois `npm run format`. Para verificar, use `npm run format:check`. A hospedagem não precisa instalar esses pacotes nem executar esses comandos.
 
 ## Publicação e operação
 
-O repositório armazena os arquivos. A publicação depende da hospedagem escolhida. O site é estático e dispensa instalação de pacotes ou etapa de build.
+Envie o conteúdo desta pasta à raiz publicada do projeto, com `index.html` na raiz e as pastas `assets/` e `demos/` preservadas. O site pode ser servido por uma hospedagem estática. A escolha ou a configuração de uma hospedagem não faz parte deste arquivo ZIP.
 
-A política de privacidade descreve, de forma geral, o tratamento de registros técnicos pela infraestrutura de hospedagem. Ao escolher ou alterar a hospedagem, confirme os dados tratados pelo provedor e mantenha esse aviso atualizado. O registro do domínio e a contratação da hospedagem são procedimentos independentes. Complete também a identificação legal do prestador, endereço e e-mail, que continuam sinalizados como pendentes. A rotina comercial e os contratos exigem revisão antes das vendas reais.
+O formulário monta o resumo no navegador e permite enviá-lo ao WhatsApp. Os checkouts das demonstrações continuam simulados. Nenhuma integração bancária, banco de dados, login ou serviço de servidor foi acrescentado nesta reorganização.
 
-O contato está configurado como 5511963353529. O formulário monta o resumo no navegador e permite enviá-lo ao WhatsApp. As demonstrações de checkout usam pagamentos simulados.
+A política de privacidade descreve, de forma geral, os registros técnicos da infraestrutura de hospedagem. Confirme os dados tratados pelo provedor escolhido e mantenha esse aviso atualizado. Registro de domínio e hospedagem são procedimentos independentes.
+
+A identificação civil ou empresarial, o cadastro aplicável, o endereço e o e-mail do prestador continuam pendentes de complemento nas páginas legais. Não foram inventados dados de empresa nem declarada a conclusão de um registro de marca.
 
 ## Domínios dos clientes
 
-A VEXORA cuida da pesquisa, do registro e da configuração de domínios .br pelo Registro.br. A escolha deve ser aprovada pelo cliente e considerar disponibilidade, compatibilidade com a marca, facilidade de uso e orçamento. O domínio fica no CPF ou CNPJ do cliente, com acesso sob seu controle. Registro e renovação são pagos pelo cliente, conforme a proposta. Registro de domínio e registro de marca no INPI são procedimentos diferentes.
+A VEXORA cuida da pesquisa, do registro e da configuração de domínios .br pelo Registro.br. A escolha considera disponibilidade, compatibilidade com a marca, facilidade de uso e orçamento, com aprovação do cliente. O domínio fica no CPF ou CNPJ do cliente, com acesso sob seu controle. Registro e renovação são pagos pelo cliente, conforme a proposta. O registro de marca no INPI é um procedimento distinto.

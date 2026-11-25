@@ -1,12 +1,79 @@
-<!doctype html><html lang="pt-BR"><head><meta name="referrer" content="no-referrer"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Flora Botânica | Demo VEXORA</title><link rel="stylesheet" href="../../demo.css"><script src="../../demo.js" defer></script></head>
-<body class="botanical" data-demo="checkout">
-<div class="demo-bar"><a href="../../#portfolio">← Voltar ao portfólio</a><span>DEMONSTRAÇÃO · LOJA ONLINE</span></div>
-<header class="demo-nav page"><a class="demo-logo" href="./">flora<span>.</span></a><nav aria-label="Flora"><a href="#produtos">Produtos</a><a href="#carrinho">Carrinho (<span data-cart-count>0</span>)</a></nav></header>
-<main><section class="demo-hero"><div class="page"><p class="kicker">CUIDADO BOTÂNICO</p><h1>Rituais para<br>todos os dias.</h1><p>Cuidados essenciais para criar um momento seu.</p><a class="demo-button" href="#produtos">Ver coleção ↘</a></div></section>
-<section class="demo-section page" id="produtos"><p class="kicker">CATÁLOGO DEMONSTRATIVO</p><h2>Conheça a coleção</h2><div class="catalog">
-<article><h3>Sérum Folha</h3><p>Sérum facial de textura leve. 30 ml.</p><strong>R$ 64,90</strong><button type="button" class="demo-button" data-item="serum">Adicionar +</button></article>
-<article><h3>Creme Semente</h3><p>Creme para o cuidado diário das mãos. 50 ml.</p><strong>R$ 42,90</strong><button type="button" class="demo-button" data-item="creme">Adicionar +</button></article>
-<article><h3>Kit Essenciais</h3><p>Sérum Folha e Creme Semente.</p><strong>R$ 94,90</strong><button type="button" class="demo-button" data-item="kit">Adicionar +</button></article></div>
-<div class="cart" id="carrinho"><h3>Seu carrinho</h3><ul data-cart-items></ul><p class="total">Total <strong data-cart-total>R$ 0,00</strong></p><p class="demo-disclosure">Compra simulada sem cobrança ou coleta de dados de pagamento.</p><button type="button" class="demo-button" data-cart-action disabled>Ir para checkout</button>
-<form class="checkout" data-checkout hidden><fieldset><legend>Selecione o pagamento simulado</legend><label><input type="radio" name="pagamento" value="Pix" checked> Pix</label><label><input type="radio" name="pagamento" value="Cartão"> Cartão</label></fieldset><button class="demo-button" type="submit">Simular pagamento</button></form><p class="cart-status" data-cart-status aria-live="polite"></p></div></section>
-</main></body></html>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta name="referrer" content="no-referrer" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Flora Botânica | Demo VEXORA</title>
+    <link rel="stylesheet" href="../../assets/css/legacy/demos.css" />
+    <script src="../../assets/js/legacy/demo.js" type="module"></script>
+  </head>
+  <body class="botanical" data-demo="checkout">
+    <div class="demo-bar">
+      <a href="../../#portfolio">← Voltar ao portfólio</a><span>DEMONSTRAÇÃO · LOJA ONLINE</span>
+    </div>
+    <header class="demo-nav page">
+      <a class="demo-logo" href="./">flora<span>.</span></a>
+      <nav aria-label="Flora">
+        <a href="#produtos">Produtos</a
+        ><a href="#carrinho">Carrinho (<span data-cart-count>0</span>)</a>
+      </nav>
+    </header>
+    <main>
+      <!-- Rituais para todos os dias. -->
+      <section class="demo-hero">
+        <div class="page">
+          <p class="kicker">CUIDADO BOTÂNICO</p>
+          <h1>Rituais para<br />todos os dias.</h1>
+          <p>Cuidados essenciais para criar um momento seu.</p>
+          <a class="demo-button" href="#produtos">Ver coleção ↘</a>
+        </div>
+      </section>
+      <!-- Conheça a coleção -->
+      <section class="demo-section page" id="produtos">
+        <p class="kicker">CATÁLOGO DEMONSTRATIVO</p>
+        <h2>Conheça a coleção</h2>
+        <div class="catalog">
+          <article>
+            <h3>Sérum Folha</h3>
+            <p>Sérum facial de textura leve. 30 ml.</p>
+            <strong>R$ 64,90</strong
+            ><button type="button" class="demo-button" data-item="serum">Adicionar +</button>
+          </article>
+          <article>
+            <h3>Creme Semente</h3>
+            <p>Creme para o cuidado diário das mãos. 50 ml.</p>
+            <strong>R$ 42,90</strong
+            ><button type="button" class="demo-button" data-item="creme">Adicionar +</button>
+          </article>
+          <article>
+            <h3>Kit Essenciais</h3>
+            <p>Sérum Folha e Creme Semente.</p>
+            <strong>R$ 94,90</strong
+            ><button type="button" class="demo-button" data-item="kit">Adicionar +</button>
+          </article>
+        </div>
+        <div class="cart" id="carrinho">
+          <h3>Seu carrinho</h3>
+          <ul data-cart-items></ul>
+          <p class="total">Total <strong data-cart-total>R$ 0,00</strong></p>
+          <p class="demo-disclosure">
+            Compra simulada sem cobrança ou coleta de dados de pagamento.
+          </p>
+          <button type="button" class="demo-button" data-cart-action disabled>
+            Ir para checkout
+          </button>
+          <form class="checkout" data-checkout hidden>
+            <fieldset>
+              <legend>Selecione o pagamento simulado</legend>
+              <label><input type="radio" name="pagamento" value="Pix" checked /> Pix</label
+              ><label><input type="radio" name="pagamento" value="Cartão" /> Cartão</label>
+            </fieldset>
+            <button class="demo-button" type="submit">Simular pagamento</button>
+          </form>
+          <p class="cart-status" data-cart-status aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

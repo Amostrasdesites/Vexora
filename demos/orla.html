@@ -1,10 +1,66 @@
-<!doctype html><html lang="pt-BR"><head><meta name="referrer" content="no-referrer"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Orla | Demo VEXORA</title><link rel="stylesheet" href="demo.css"><script src="order.js" defer></script></head>
-<body class="beauty" data-mode="checkout">
-<script src="frame.js" defer></script><aside class="demo-bar"><a href="../index.html#portfolio">← Voltar ao portfólio</a><span>DEMO · PAGAMENTO SIMULADO</span></aside>
-<header class="demo-nav shell"><a class="demo-brand" href="orla.html">orla<span>.</span></a><nav aria-label="Principal"><a href="#itens">Coleção</a><button type="button" class="basket-trigger">Sacola <span data-count>0</span></button></nav></header>
-<main>
-<section class="shop-hero shell"><div><p class="kicker">CUIDADO PESSOAL</p><h1>O cuidado<br>de todo dia.</h1><p>Uma coleção de cuidados para uma rotina simples. Explore os produtos e experimente o fluxo de compra.</p><a href="#itens" class="demo-button">Conhecer a coleção ↓</a></div><div class="shop-image" role="img" aria-label="Frasco verde de sérum sobre pedra natural"></div></section>
-<section class="shell demo-section" id="itens"><p class="kicker">CUIDADOS ESSENCIAIS</p><h2>A coleção.</h2><div id="products" class="product-grid"></div><p id="product-feedback" class="product-feedback" role="status"></p></section>
-</main><footer class="shell demo-footer"><span>Orla · Marca e produtos fictícios</span><a href="../index.html#orcamento">Quero um site assim →</a><a href="../privacidade.html" target="_blank" rel="noopener noreferrer">Privacidade</a><a href="../termos.html" target="_blank" rel="noopener noreferrer">Condições</a></footer>
-<dialog id="basket" aria-labelledby="basket-title"><div class="dialog-head"><h2 id="basket-title" tabindex="-1">Sua sacola</h2><form method="dialog"><button class="close" aria-label="Fechar">×</button></form></div><div id="basket-body"></div><div id="basket-next" hidden></div><p id="feedback" role="status"></p></dialog>
-</body></html>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta name="referrer" content="no-referrer" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Orla | Demo VEXORA</title>
+    <link rel="stylesheet" href="../assets/css/demos.css" />
+    <script src="../assets/js/demos/store.js" type="module"></script>
+  </head>
+  <body class="beauty" data-mode="checkout">
+    <script src="../assets/js/demos/frame.js" type="module"></script>
+    <aside class="demo-bar">
+      <a href="../index.html#portfolio">← Voltar ao portfólio</a
+      ><span>DEMO · PAGAMENTO SIMULADO</span>
+    </aside>
+    <header class="demo-nav shell">
+      <a class="demo-brand" href="orla.html">orla<span>.</span></a>
+      <nav aria-label="Principal">
+        <a href="#itens">Coleção</a
+        ><button type="button" class="basket-trigger">Sacola <span data-count>0</span></button>
+      </nav>
+    </header>
+    <main>
+      <!-- O cuidado de todo dia. -->
+      <section class="shop-hero shell">
+        <div>
+          <p class="kicker">CUIDADO PESSOAL</p>
+          <h1>O cuidado<br />de todo dia.</h1>
+          <p>
+            Uma coleção de cuidados para uma rotina simples. Explore os produtos e experimente o
+            fluxo de compra.
+          </p>
+          <a href="#itens" class="demo-button">Conhecer a coleção ↓</a>
+        </div>
+        <div
+          class="shop-image"
+          role="img"
+          aria-label="Frasco verde de sérum sobre pedra natural"
+        ></div>
+      </section>
+      <!-- A coleção. -->
+      <section class="shell demo-section" id="itens">
+        <p class="kicker">CUIDADOS ESSENCIAIS</p>
+        <h2>A coleção.</h2>
+        <div id="products" class="product-grid"></div>
+        <p id="product-feedback" class="product-feedback" role="status"></p>
+      </section>
+    </main>
+    <footer class="shell demo-footer">
+      <span>Orla · Marca e produtos fictícios</span
+      ><a href="../index.html#orcamento">Quero um site assim →</a
+      ><a href="../privacidade.html" target="_blank" rel="noopener noreferrer">Privacidade</a
+      ><a href="../termos.html" target="_blank" rel="noopener noreferrer">Condições</a>
+    </footer>
+    <dialog id="basket" aria-labelledby="basket-title">
+      <div class="dialog-head">
+        <h2 id="basket-title" tabindex="-1">Sua sacola</h2>
+        <form method="dialog"><button class="close" aria-label="Fechar">×</button></form>
+      </div>
+      <div id="basket-body"></div>
+      <div id="basket-next" hidden></div>
+      <p id="feedback" role="status"></p>
+    </dialog>
+  </body>
+</html>

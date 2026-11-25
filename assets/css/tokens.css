@@ -1,0 +1,12 @@
+/* Cores e fontes da VEXORA. Edite este arquivo para ajustar a identidade visual. */
+:root {
+  --paper: #07111f;
+  --ink: #ecf2fa;
+  --muted: #aab9cd;
+  --accent: #81b5f8;
+  --deep: #a8cbfa;
+  --line: #24374e;
+  --mono: 'Space Mono', monospace;
+  --font: 'Space Grotesk', Arial, sans-serif;
+  color-scheme: dark;
+}
